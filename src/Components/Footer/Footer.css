@@ -1,0 +1,148 @@
+.Footer {
+    display: flex;
+    padding: 48px 236px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    background-color: #f8f8f8;
+}
+
+.Cursor:hover {
+    cursor: pointer;
+}
+
+.Footer h1 {
+    font-size: 36px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+}
+
+.FlexLeft {
+    flex: 50%;
+}
+
+.FlexLeft p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.FlexLeft span {
+    font-size: 14px;
+    color: rgb(103, 103, 103);
+    font-weight: 600;
+}
+
+.FlexRight {
+    flex: 50%;
+    padding-top: 100px;
+    background-color: #f8f8f8;
+}
+
+.FlexRight h1 {
+    font-size: 17px;
+}
+
+.FlexRight p {
+    font-size: 15px;
+    color: #575757;
+    width: 400px;
+}
+
+.Media {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.InputBar {
+    display: flex;
+    gap: 10px;
+}
+
+.InputBar Input {
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid #d2d2d2;
+}
+
+.InputBar Input:focus {
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid #05CCB9;
+    outline: none;
+}
+
+.InputBar Button {
+    padding: 10px;
+    background-color: #05CCB9;
+    border-radius: 8px;
+    border: none;
+}
+
+@media screen and (max-width: 420px) {
+    .Footer {
+        display: flex;
+        padding: 18px;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: wrap;
+        background-color: #F6F8F8;
+    }
+    .Footer h1 {
+        font-size: 26px;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 700;
+    }
+    .FlexLeft {
+        flex: 100%;
+        order: 2;
+    }
+    .FlexLeft p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .FlexLeft span {
+        font-size: 14px;
+        color: rgb(103, 103, 103);
+        font-weight: 600;
+    }
+    .FlexRight {
+        flex: 100%;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        order: 1;
+    }
+    .FlexRight h1 {
+        font-size: 17px;
+    }
+    .FlexRight p {
+        font-size: 15px;
+        color: #575757;
+        width: 350px;
+    }
+    .Media {
+        display: flex;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    .InputBar {
+        display: flex;
+        gap: 10px;
+    }
+    .InputBar Input {
+        padding: 10px;
+        background-color: white;
+        border-radius: 8px;
+        border: none;
+    }
+    .InputBar Button {
+        padding: 10px;
+        background-color: #05CCB9;
+        border-radius: 8px;
+        border: none;
+    }
+}

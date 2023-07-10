@@ -1,0 +1,67 @@
+.FinancingPartners {
+    display: flex;
+    padding: 48px 236px;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: wrap;
+    background-color: #F6F8F8;
+}
+
+.FinancingPartners h1 {
+    font-size: 36px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+}
+
+.Partners {
+    flex: 50%;
+    background-color: #F6F8F8;
+}
+
+.Partners p {
+    font-size: 15px;
+    width: 270px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 20px;
+}
+
+.NeedProp {
+    flex: 50%;
+    background-color: #F6F8F8;
+}
+
+@media screen and (max-width: 420px) {
+    .FinancingPartners {
+        display: flex;
+        padding: 18px;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: wrap;
+        background-color: #F6F8F8;
+    }
+    .FinancingPartners h1 {
+        font-size: 26px;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 700;
+    }
+    .Partners {
+        flex: 100%;
+        background-color: #F6F8F8;
+    }
+    .Partners p {
+        font-size: 15px;
+        width: 300px;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        margin-left: 0;
+        margin-right: 0;
+        line-height: 20px;
+    }
+    .NeedProp {
+        flex: 100%;
+        background-color: #F6F8F8;
+    }
+}

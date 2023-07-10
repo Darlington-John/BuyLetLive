@@ -1,0 +1,52 @@
+.PropsInsights {
+    display: flex;
+    padding: 8px 236px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.PropsInsights h1 {
+    font-size: 36px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    padding-left: 50px;
+}
+
+.PropsInsights p {
+    font-size: 15px;
+    width: 500px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    padding-left: 50px;
+}
+
+.AltCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 420px) {
+    .PropsInsights {
+        display: flex;
+        padding: 18px;
+        gap: 20px;
+        flex-wrap: wrap;
+        background-color: rgb(255, 255, 255);
+    }
+    .PropsInsights h1 {
+        font-size: 26px;
+        padding-left: 28px;
+    }
+    .PropsInsights p {
+        font-size: 16px;
+        padding-left: 28px;
+        width: 80%;
+    }
+}

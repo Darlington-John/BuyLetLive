@@ -1,0 +1,46 @@
+.card {
+    padding: 20px;
+    position: relative;
+    width: 354px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    line-height: 10px;
+    border: 1px solid #E8EDEC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 56, 51, 0.04);
+    border-radius: 10px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.CardImg {
+    width: 100%;
+    height: 188px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    width: 100%;
+}
+
+.card p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    color: #606060;
+}
+
+.ImgButtons {
+    position: relative;
+}
+
+#card {
+    background-color: #F6F8F8;
+}

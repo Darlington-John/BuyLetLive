@@ -1,0 +1,115 @@
+.ComingSoon {
+    display: flex;
+    padding: 48px 236px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+.Cursor:hover {
+    cursor: pointer;
+}
+
+.Mobile {
+    background-color: #6F6C9B;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: wrap;
+    padding: 72px;
+    border-radius: 32px;
+}
+
+.ComingSoon h1 {
+    font-size: 36px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.FlexLeftComingSoon {
+    flex: 50%;
+}
+
+.FlexRightComingSoon {
+    flex: 50%;
+    position: relative;
+}
+
+.View {
+    position: absolute;
+    top: 56px;
+    left: 175px;
+    z-index: 3;
+}
+
+.PhoneView {
+    position: absolute;
+    top: 140px;
+    left: 80px;
+    z-index: 1;
+}
+
+.BlackPhone {
+    position: absolute;
+    top: 45px;
+    left: 150px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 420px) {
+    .ComingSoon {
+        display: flex;
+        padding: 28px;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: wrap;
+        background-color: #F6F8F8;
+    }
+    .Mobile {
+        background-color: #6F6C9B;
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: wrap;
+        padding: 12px;
+        border-radius: 32px;
+    }
+    .ComingSoon h1 {
+        font-size: 26px;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    .FlexLeftComingSoon {
+        flex: 100%;
+    }
+    .FlexRightComingSoon {
+        flex: 100%;
+        position: relative;
+        display: none;
+    }
+    .View {
+        position: absolute;
+        top: 56px;
+        left: 175px;
+        z-index: 3;
+        display: none;
+    }
+    .PhoneView {
+        position: absolute;
+        top: 140px;
+        left: 80px;
+        display: none;
+        z-index: 1;
+    }
+    .BlackPhone {
+        position: absolute;
+        top: 45px;
+        left: 150px;
+        z-index: 2;
+        display: none;
+    }
+}

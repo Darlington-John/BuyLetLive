@@ -35,9 +35,6 @@
 .Filters-Bar h1 {
     font-size: 17px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 0;
     width: 200px;
     padding-left: 0;
 }
@@ -46,10 +43,9 @@
     font-size: 15px;
     display: flex;
     gap: 10px;
-    width: 80%;
+    width: 100%;
     align-items: flex-start;
     flex-wrap: wrap;
-    align-items: center;
     padding-left: 0;
 }
 
@@ -62,8 +58,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
 }
 
 @media screen and (max-width: 420px) {
@@ -104,7 +98,7 @@
         font-size: 15px;
         display: flex;
         gap: 10px;
-        width: 80%;
+        width: 100%;
         flex-wrap: wrap;
     }
     .Filters-Bar {
